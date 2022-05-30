@@ -246,10 +246,13 @@ margin-right: 9rem;
 #Banners .banner .description h3{
   font-size: 2rem;
 }
-
+#Products{
+  text-align: center;
+}
 .allProducts{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   margin: 0 auto;
   max-width: 1000px;
   text-align: center;
@@ -481,7 +484,7 @@ color: var(--main-hover);
 @media only screen and ( max-width: 800px) {
  
  body{
-   width: 600px;
+   min-width: 700px;
  }
   nav .wideScreenView{
     display: none;
@@ -536,7 +539,7 @@ nav .mobileNav .itemsNav .search .icon{
 }
 #herobox{
   display: flex;
-  max-width: 600px;
+  width: 700px;
 }
 
 #herobox img{
