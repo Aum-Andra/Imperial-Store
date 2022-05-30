@@ -483,9 +483,7 @@ color: var(--main-hover);
 /* phone view */
 @media only screen and ( max-width: 800px) {
  
- body{
-   width: 550px;
- }
+
   nav .wideScreenView{
     display: none;
   }
@@ -537,22 +535,30 @@ nav .mobileNav .itemsNav .search .icon{
 {
   display: none;
 }
-#herobox{
-  display: flex;
-  width: 700px;
+#herobox .content{
+padding: 6rem 0;
+display: flex;
+flex-direction:column-reverse;
 }
-
+#herobox .info .arrow-buttons{
+  margin-right: 12rem;
+}
+#herobox .content .hero-photo{
+ margin: 0 auto;
+ width: 350px;
+}
 #herobox img{
-  max-width: 100%;
-  max-height: 600px;
-  padding: 10px;
+  width: 100%;
+  height: 400px;
+  padding: 10px; 
+  
 }
 #Banners{
   display: block;
 }
 #Products .allProducts{
   
-  width: 500px;
+  width: 300px;
 }
 #product-details{
 max-width: 570px;
