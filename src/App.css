@@ -484,7 +484,7 @@ color: var(--main-hover);
 @media only screen and ( max-width: 800px) {
  
  body{
-   min-width: 700px;
+   width: 550px;
  }
   nav .wideScreenView{
     display: none;
