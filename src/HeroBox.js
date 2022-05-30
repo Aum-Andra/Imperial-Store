@@ -85,7 +85,6 @@ const HeroBox = () => {
               dolore illo hic repellendus rerum accusamus doloremque fugit
               laboriosam consectetur sit!
             </p>
-            <button className="btn">Spring Sales %</button>
           </div>
         </div>
         <div className="hero-photo">
